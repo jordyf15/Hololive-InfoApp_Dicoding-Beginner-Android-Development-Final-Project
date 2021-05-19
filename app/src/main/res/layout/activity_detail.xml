@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    tools:context=".DetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/amelia_detail_pic" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp">
+
+            <TableRow>
+
+                <TextView
+                    style="@style/Table_row.header"
+                    android:text="@string/basic_details" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    style="@style/Table_row"
+                    android:text="@string/original_name" />
+
+                <TextView
+                    android:id="@+id/original_name"
+                    style="@style/Table_row"
+                    tools:text="@string/original_name_example" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    style="@style/Table_row"
+                    android:text="Nicknames" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rv_nicknames"
+                    style="@style/Table_row"
+                    tools:listitem="@layout/item_row_nickname" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    style="@style/Table_row"
+                    android:text="@string/debut_date" />
+
+                <TextView
+                    android:id="@+id/debut_date"
+                    style="@style/Table_row"
+                    tools:text="@string/debut_date_example" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    style="@style/Table_row"
+                    android:text="@string/channel_name" />
+
+                <TextView
+                    android:id="@+id/channel_name"
+                    style="@style/Table_row"
+                    tools:text="@string/channel_name_example" />
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp">
+
+            <TableRow>
+
+                <TextView
+                    style="@style/Table_row.header"
+                    android:text="@string/personal_details" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    style="@style/Table_row"
+                    android:text="@string/gender" />
+
+                <TextView
+                    android:id="@+id/gender"
+                    style="@style/Table_row"
+                    tools:text="@string/gender_example" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    style="@style/Table_row"
+                    android:text="@string/age" />
+
+                <TextView
+                    android:id="@+id/age"
+                    style="@style/Table_row"
+                    tools:text="@string/age_example" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    style="@style/Table_row"
+                    android:text="@string/birthday" />
+
+                <TextView
+                    android:id="@+id/birthday"
+                    style="@style/Table_row"
+                    tools:text="@string/birthday_example" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    style="@style/Table_row"
+                    android:text="@string/height" />
+
+                <TextView
+                    android:id="@+id/height"
+                    style="@style/Table_row"
+                    tools:text="@string/height_example" />
+            </TableRow>
+        </TableLayout>
+
+
+        <TextView
+            android:id="@+id/quote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/quote_example"
+            android:textSize="18dp"
+            android:textColor="@color/text_quote"
+            android:textAlignment="center"
+            android:layout_marginBottom="15dp"/>
+
+        <TextView
+            android:id="@+id/background_story"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="15dp"
+           android:justificationMode="inter_word"
+            tools:text="@string/background_story_example" />
+
+    </LinearLayout>
+</ScrollView>

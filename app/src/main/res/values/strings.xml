@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">HoloLive-InfoApp</string>
+    <string name="vtuber_name">Amelia Watson</string>
+    <string name="vtuber_detail">Watson Amelia is an English Virtual YouTuber associated with hololive, as part of its English (EN) branch first generation of VTubers</string>
+    <string name="original_name">Original Name</string>
+    <string name="original_name_example">amelia watson</string>
+    <string name="debut_date">Debut Date</string>
+    <string name="debut_date_example">2020/09/13</string>
+    <string name="channel_name">Channel Name</string>
+    <string name="channel_name_example">Watson Amelia Ch. hololive-EN</string>
+    <string name="channel_url">Channel Url</string>
+    <string name="gender">Gender</string>
+    <string name="gender_example">Female</string>
+    <string name="age">Age</string>
+    <string name="age_example">19 years old</string>
+    <string name="birthday">Birthday</string>
+    <string name="birthday_example">6 January</string>
+    <string name="height">Height</string>
+    <string name="height_example">150 cm (4\'11)</string>
+    <string name="quote">Quote</string>
+    <string name="quote_example">Nothing beats a ground pound.</string>
+    <string name="background_story">Backgrond Story</string>
+    <string name="background_story_example">Amelia heard strange rumors surrounding Hololive online: talking foxes, magical squirrels, superhuman dogs, and more. Soon after beginning her investigation on Hololive, and just out of interest, she decided to become an idol herself! She loves to pass her time training her reflexes with FPS games, and challenging herself with puzzle games. It\'s elementary, right?</string>
+    <string name="basic_details">Basic Details</string>
+    <string name="personal_details">Personal Details</string>
+    <string name="my_name">Jordy Ferdian</string>
+    <string name="my_email">jordyferdian88@gmail.com</string>
+</resources>
